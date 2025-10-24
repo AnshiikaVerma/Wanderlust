@@ -1,0 +1,141 @@
+
+/* sticking footer to bottom pf page */
+body{
+   font-family: "Plus Jakarta Sans", sans-serif !important;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+
+}
+.container{
+ flex:1
+}
+/* .... */
+
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+.fa-compass{
+    color:#fe424d;
+    font-size: 2rem;
+}
+.nav-link{
+    color:#222222 !important
+}
+
+
+/*===================== Footer================== */
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+.f-info-links,.f-info-socials{
+    width: 100%;
+}
+.f-info-socials i{
+margin-right: 0.6rem;
+    font-size: 1.2rem;
+}
+.f-info{
+    text-align: center;
+    display: flex;
+    background-color: #ebebeb;
+    height: 8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.listing-card{
+    border:none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem  !important;
+    width:100% !important;
+    object-fit: cover !important;
+}
+
+.link{
+    text-decoration: none;
+}
+/* card effect */
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: #ebebeb;
+}
+.add-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+/* edit page */
+.edit-btn{
+     background-color: #fe424d !important;
+    border: none !important;
+   
+}
+/* show page */
+.show-img{
+    height:30vh ;
+}
+.but{
+    display: flex !important ;
+    
+  
+}
+.edit{
+    background-color: #fe424d !important ;
+    border: none !important ;
+}
+
+
+
+
+  #map {
+    height: 100%;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #map {
+    height: 400px; /* The height is 400 pixels */
+    width: 100%; /* The width is the width of the web page */
+}
+
+
+
+
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+
+/* 
+ * Optional: Makes the sample page fill the window. 
+ */
+
+
+.custom-map-control-button {
+  background-color: #fff;
+  border: 0;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  padding: 0 0.5em;
+  font: 400 18px Roboto, Arial, sans-serif;
+  overflow: hidden;
+  height: 40px;
+  cursor: pointer;
+}
+.custom-map-control-button:hover {
+  background: rgb(235, 235, 235);
+}
